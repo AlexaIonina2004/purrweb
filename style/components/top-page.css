@@ -1,0 +1,22 @@
+/* Верстка кнопок-переключателей */
+
+.top-page {
+    background: var(--secondary-02-color);
+  }
+  
+  .top-page__body {
+    display: flex;
+  }
+  .top-page__btn {
+    border-radius: 20px 20px 0 0;
+    padding: 9px 40px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .active-top-btn {
+    background: var(--grayscale-01-color);
+  
+    text-align: center;
+    color: var(--grayscale-07-color);
+  }
+  

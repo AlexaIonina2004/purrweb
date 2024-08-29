@@ -1,0 +1,30 @@
+:root {
+    /* grayscale */
+    --grayscale-00-color: #000000;
+    --grayscale-01-color: #181818;
+    --grayscale-02-color: #444444;
+    --grayscale-03-color: #B9B9B9;
+    --grayscale-04-color: #CFCFCF;
+    --grayscale-05-color: #E4E4E4;
+    --grayscale-06-color: #F5F5F5;
+    --grayscale-07-color: #FFFFFF;
+
+    /* Primary */
+    --primary-00-color: #7B31D4;
+    --primary-01-color: #954CED;
+    --primary-02-color: #A64CED;
+    --primary-03-color: #BA8BF3;
+    --primary-04-color: #954CED33;
+
+
+    /* Secondary */
+
+    --secondary-01-color: #2FDBBC;
+    --secondary-02-color: #FFAA4C;
+    --secondary-03-color: #C1DB2F;
+
+    /* Additional */
+    --additional-01-color: #FF6C2D;
+    --additional-02-color: #EC1211;
+
+}

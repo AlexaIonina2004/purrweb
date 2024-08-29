@@ -1,0 +1,46 @@
+.cookie {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-family: "Outfit";
+  width: 100%;
+  padding: 30px 65px;
+z-index: 3;
+}
+.cookie__body {
+  padding: 30px;
+  background: var(--grayscale-07-color);
+  box-shadow: -10px -5px 30px 0 rgba(141, 141, 141, 0.1);
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  border-radius: 16px;
+}
+.cookie__text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 140%;
+  color: #383838;
+  max-width: 783px;
+}
+.cookie__btns {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .cookie {
+    padding: 20px;
+  }
+  .cookie__body {
+    flex-direction: column;
+  }
+  .cookie__btns {
+    width: 100%;
+    flex-direction: column;
+  }
+  .cookie__button {
+    width: 100%;
+  }
+}

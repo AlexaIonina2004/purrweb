@@ -1,0 +1,32 @@
+.subtitle {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+}
+.subtitle span {
+  position: relative;
+  white-space: nowrap;
+}
+
+.subtitle span::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -5px;
+  background: var(--primary-02-color);
+  z-index: -1;
+  border-radius: 30px;
+  width: 353px;
+  height: 34px;
+  transform: rotate(-2deg);
+}
+
+@media (max-width: 768px) {
+  .subtitle {
+    line-height: 120%;
+    font-size: calc(24px + (36 - 24) * ((100vw - 375px) / (768 - 375)));
+  }
+  .subtitle span::before {
+    height: calc(22px + (35 - 22) * ((100vw - 375px) / (768 - 375)));
+  }
+}

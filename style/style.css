@@ -1,0 +1,33 @@
+
+/* Шрифт Outfit можно было подключить не только скачиванием, но и еще таким образом */
+/* @import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900); */
+
+
+/* Подключение шрифтов, обнуления стилей, цветов */
+@import url(../style/fonts.css);
+@import url(../style/null.css);
+@import url(../style/vars.css);
+
+
+/* Подключение компонентов */
+@import url(../style/components/button.css);
+@import url(../style/components/title.css);
+@import url(../style/components/subtitile.css);
+@import url(../style/components/burger.css);
+@import url(../style/components/section.css);
+@import url(../style/components/modal.css);
+@import url(../style/components/cookie.css);
+
+/* Шапка, секции, подвал */
+@import url(../style/components/top-page.css);
+@import url(../style/components/header.css);
+@import url(../style/components/sections/home.css);
+@import url(../style/components/sections/about.css);
+@import url(../style/components/sections/works.css);
+@import url(../style/components/sections/achievements.css);
+@import url(../style/components/sections/grow.css);
+@import url(../style/components/sections/business.css);
+@import url(../style/components/sections/brand.css);
+@import url(../style/components/sections/companies.css);
+
+@import url(../style/components/footer.css);

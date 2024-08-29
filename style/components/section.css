@@ -1,0 +1,7 @@
+.white-section {
+    color: var(--grayscale-00-color);
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--grayscale-06-color);
+}

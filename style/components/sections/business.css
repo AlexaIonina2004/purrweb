@@ -1,0 +1,14 @@
+.business__item {
+  border: 1px solid var(--grayscale-04-color);
+  border-radius: 60px;
+  padding: 60px;
+  text-align: center;
+}
+.business__title {
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .business__item {
+    padding:  calc(40px + (60 - 40) * ((100vw - 375px) / (768 - 375))) calc(20px + (60 - 20) * ((100vw - 375px) / (768 - 375)));
+  }
+}

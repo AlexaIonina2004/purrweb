@@ -1,0 +1,22 @@
+.title {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 106%;
+  font-feature-settings: "liga" off;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: calc(40px + (96 - 40) * ((100vw - 375px) / (768 - 375)));
+  }
+}
+.small-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 106%;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .small-title {
+    font-size: calc(40px + (64 - 40) * ((100vw - 375px) / (1024 - 375)));
+  }
+}

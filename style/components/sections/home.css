@@ -1,0 +1,67 @@
+/* Секция Home */
+.home {
+  margin-top: 82px;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.home__container {
+  position: relative;
+  padding-bottom: 141px;
+}
+.home__title {
+  margin-bottom: 20px;
+}
+.home__info {
+  padding-left: 50px;
+}
+
+.home__title span {
+  display: block;
+}
+.home__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 40px;
+  max-width: 534px;
+}
+.home__img {
+  position: absolute;
+  top: 0;
+  width: 474px;
+  height: 617px;
+  margin-top: -5px;
+  right: 74px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .home {
+    margin-top: calc(67px + (89 - 67) * ((100vw - 375px) / (768 - 375)));
+  }
+  .home__info {
+    padding-left: 0;
+  }
+  .home__container {
+    padding-bottom: 396px;
+  }
+  .home__img {
+    width: 411px;
+    height: 289px;
+    bottom: 0;
+    top: unset;
+    right: unset;
+    left: 32px;
+    bottom: -21px;
+  }
+  .home__img img {
+    object-fit: cover;
+    height: 100%;
+
+    width: 100%;
+  }
+
+  .home__text {
+    font-size: calc(16px + (20 - 16) * ((100vw - 375px) / (768 - 375)));
+  }
+}
